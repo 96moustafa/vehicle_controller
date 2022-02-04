@@ -249,7 +249,6 @@ void Controller::land_vehicle(const std::shared_ptr<Empty::Request>,
                                 std::shared_ptr<Empty::Response>)
 {
     this->land();
-    // response->success = true;
     land_triggered_ = true;
 }
 
